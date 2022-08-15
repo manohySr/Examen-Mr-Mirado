@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    .maincontainer{
+        margin-left: 50px;
+    }
+
+}
+.containerAddEtudiant{
+    display: flex;
+    flex-direction: row;
+    .containerCard{
+        margin-left: 200px;
+    }
+}
+form{
+    display: flex;
+    flex-direction: row;
+    .rightside{
+        margin-left: 50px;
+    }
+    .leftside{
+        .boutonsubmit{
+            position: relative;
+            top: 150px;
+            left: 20px;
+        }
+    }
+}
+label{
+    color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+}
+.input{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    input{
+        position: relative;
+        top: 10px;
+        left: 20px;
+        padding: 10px;
+    }
+}
+
+
+.containerCard{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px 10px 20px 20px;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    .headerCard{
+       margin-top: 5%;
+    }
+    .contentCard{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        span{
+            padding: 10px;
+        }
+    }
+    .footerCard{
+        position: relative;
+        margin-left: 2em;
+        top: 0;
+        right: 0;
+    }
+}
