@@ -1,0 +1,10 @@
+etudiant_id => varchar
+etudiant_nom => varchar
+etudiant_prenom => varchar
+etudiant_naissance => varchar
+etudiant_telephone => varchar
+etudiant_sexe => varchar
+etudiant_image => text
+etudiant_numeroInscription => varchar
+etudiant_creation => date
+etudiant_update => date
